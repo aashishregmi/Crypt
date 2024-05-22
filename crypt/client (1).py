@@ -16,7 +16,7 @@ def receive():
 def send(event=None):  # event is passed by binders.
     msg = my_msg.get()
 
-    #-----------------------------------------------
+    #-------------------------------------------
 
     import os
     from cryptography.hazmat.primitives import serialization
